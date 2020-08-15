@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: iDroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+:root{
+    --color0: #c5ebd6;
+    --color1: #83E1AD;
+    --color2: #3DDC84;
+    --color3: #2FA866;
+    --color4: #1A5C37;
+    --color5: #063d1e;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'Android', sans-serif;
+    --font3: 'iDroid', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .466);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+nav > a {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav > a:hover {
+    color: var(--color0);
+}
+
+div#top {
+    background: linear-gradient(var(--color2), var(--color5));
+    padding-bottom: 5px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: var(--font1);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: var(--font3);
+    color: var(--color4);
+}
+
+h3 {
+    font-family: var(--font3);
+    color: var(--color4);
+    background-image: linear-gradient(90deg, var(--color0), white);
+}
+
+body {
+    font-family: var(--font0);
+    background-color: var(--color1);
+}
+
+article {
+    background: white;
+    margin: auto;
+    padding: 15px;
+    min-width: 400px;
+    max-width: 800px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .466);
+    border-radius: 0px 0px 5px 5px;
+}
+
+article p {
+    padding: 20px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+article a {
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 700;
+}
+
+article a:visited {
+    color: var(--color3);
+}
+
+article a:hover {
+    color: var(--color5);
+    text-decoration: underline;
+}

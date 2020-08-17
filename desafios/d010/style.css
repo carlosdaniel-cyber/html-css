@@ -125,3 +125,26 @@ ul {
     columns: 3;
     list-style-position: inside;
 }
+
+footer {
+    background-color: var(--color5);
+    font-style: italic;
+    color: white;
+    padding: 7px 0px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}

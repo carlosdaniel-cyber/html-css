@@ -102,6 +102,10 @@ article a:hover {
     text-decoration: underline;
 }
 
+article a.link::after {
+    content: '\1F517';
+}
+
 div.video {
     position: relative;
     background-color: var(--color4);
@@ -122,8 +126,26 @@ div.video > iframe {
 
 ul {
     list-style-type: '\25B6\0020\0020';
-    columns: 3;
+    columns: 2;
     list-style-position: inside;
+}
+
+aside h4 {
+    color: white;
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+
+aside {
+    background-color: var(--color0);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+aside p {
+    padding: 10px;
 }
 
 footer {

@@ -23,7 +23,6 @@
 }
 
 header {
-    width: 100vw;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, .466);
     text-align: center;
     padding-top: 20px;
@@ -42,10 +41,10 @@ nav > a:hover {
 }
 
 div#top {
+    width: 100vw;
     background: linear-gradient(var(--color2), var(--color5));
     padding-bottom: 5px;
     color: white;
-
 }
 
 h1 {

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th {
+            color: white;
+            background-color: gray;
+        }
+
+        .left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <p>Table of Grades</p>
+        </caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2">Subjects</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Mean</th>
+            </tr>
+
+            <tr>
+                <th>Grade 1</th>
+                <th>Grade 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">Math and Science</td>
+                <td>Mathematics</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Physics</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Chemistry</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Biology</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <th class="left" colspan="4">Total mean</th>
+            <th>0.0</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Social Studies</td>
+                <td>History</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geography</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th class="left" colspan="4">Total mean</th>
+            <th>0.0</th>
+        </tfoot>
+    </table>
+</body>
+</html>

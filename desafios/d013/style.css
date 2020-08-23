@@ -1,0 +1,9 @@
+body {
+    background: black url(pacote-d013/imagens/frame-iphone.png) center center no-repeat;
+    background-size: contain;
+    height: 95vh;
+}
+
+div#screen {
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+}

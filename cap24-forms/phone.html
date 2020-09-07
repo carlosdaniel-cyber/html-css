@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif">
+    <form action="register.php" method="GET">
+        <p>
+            <label for="imod">Smartphone:</label>
+            <select name="model" id="imod">
+                <option value="">Choose...</option>
+                <optgroup label="Apple">
+                    <option value="AIP1132">iPhone 11 32GB</option>
+                    <option value="AIP11P64">iPhone 11 Pro 64GB</option>
+                    <option value="AIP11PM256">iPhone 11 Pro Max 256GB</option>
+                </optgroup>
+                <optgroup label="Samsung">
+                    <option value="SGXYS10">Galaxy S10 Lite</option>
+                    <option value="SGXYS20U128">Galaxy S20 Ultra 128GB</option>
+                    <option value="SGXYN10256">Galaxy Note10 256GB</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="idet">Technical details:</label><br>
+            <textarea name="det" id="idet" cols="40" rows="10"></textarea>
+        </p>
+
+        <p>
+            <label for="iprof">Occupation:</label>
+            <input type="text" name="prof" id="iprof" list="lprof">
+            <datalist id="lprof">
+                <optgroup label="Business">
+                    <option value="Administrator"></option>
+                    <option value="Accountant"></option>
+                    <option value="RH Manager"></option>
+                </optgroup>
+                <optgroup label="Art and Design">
+                    <option value="Illustrator"></option>
+                    <option value="Actor"></option>
+                    <option value="Photographer"></option>
+                </optgroup>
+                <optgroup label="Math and Science">
+                    <option value="Systems Analist"></option>
+                    <option value="Statistician"></option>
+                    <option value="Mathematician"></option>
+                </optgroup>
+                <optgroup label="Social Sciences">
+                    <option value="Lawyer"></option>
+                    <option value="Linguist"></option>
+                    <option value="Professor"></option>
+                </optgroup>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
+
+</body>
+</html>

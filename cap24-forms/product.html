@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif">
+    <form action="register.php" method="GET" oninput="itot.value = Number(iprice.value) * Number(iquant.value)">
+        <p>
+            <label for="iprod">Product:</label>
+            <input type="text" name="prod" id="iprod">
+        </p>
+        <p>
+            <label for="iprice">Price: US$</label>
+            <input type="number" name="price" id="iprice">
+        </p>
+        <p>
+            <label for="iquant">Quantity:</label>
+            <input type="number" name="quant" id="iquant">
+        </p>
+        <p>
+            <label for="itot">Total: US$</label>
+            <output name="tot" id="itot">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
+</body>
+</html>
